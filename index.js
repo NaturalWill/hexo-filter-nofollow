@@ -5,7 +5,11 @@
 hexo.config.nofollow = Object.assign({
   enable: true,
   field: 'site',
-  exclude: []
+  exclude: [],
+  goto: {
+    enable: false,
+    prefix: '/goto/?u='
+  }
 }, hexo.config.nofollow);
 
 const config = hexo.config.nofollow;

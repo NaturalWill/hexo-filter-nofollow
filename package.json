@@ -1,7 +1,7 @@
 {
-  "name": "hexo-filter-nofollow",
+  "name": "hexo-filter-nofollow-with-goto",
   "version": "2.0.2",
-  "description": "Add nofollow attribute to all external links automatically",
+  "description": "Fork from hexo-filter-nofollow. Add nofollow attribute to all external links, or convert all external links to internal links automatically.",
   "main": "index.js",
   "directories": {
     "lib": "./lib"
@@ -17,7 +17,7 @@
     "eslint": "eslint .",
     "test": "mocha test/index.js"
   },
-  "repository": "hexojs/hexo-filter-nofollow",
+  "repository": "naturalwill/hexo-filter-nofollow-with-goto",
   "keywords": [
     "hexo",
     "seo",
@@ -25,17 +25,20 @@
     "hexo-filter",
     "nofollow"
   ],
-  "author": "SukkaW <isukkaw@gmail.com> (https://skk.moe)",
+  "author": "Jie <naturalwill999@gmail.com> (https://naturalwill.github.io)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hexojs/hexo-filter-nofollow/issues"
+    "url": "https://github.com/NaturalWill/hexo-filter-nofollow-with-goto/issues"
   },
-  "homepage": "https://github.com/hexojs/hexo-filter-nofollow#readme",
+  "homepage": "https://github.com/NaturalWill/hexo-filter-nofollow-with-goto#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^6.2.2",
     "eslint-config-hexo": "^3.0.0",
     "hexo": "hexojs/hexo",
     "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "js-base64": "^2.5.1"
   }
 }
